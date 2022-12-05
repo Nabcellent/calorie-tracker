@@ -26,5 +26,7 @@ func main() {
 	router.PUT("/entries/ingredients/:id", routes.UpdateIngredient)
 	router.GET("/entries/ingredients/:ingredient", routes.GetByIngredient)
 
-	router.Run(":" + port)
+	if err := router.Run(":" + port); err != nil {
+		panic("Unable to start server.")
+	}
 }
