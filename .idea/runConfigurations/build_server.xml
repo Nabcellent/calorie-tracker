@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build server" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="calorie-tracker" />
+    <working_directory value="$PROJECT_DIR$/server" />
+    <kind value="PACKAGE" />
+    <package value="calorie-tracker" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/server/main.go" />
+    <method v="2" />
+  </configuration>
+</component>
